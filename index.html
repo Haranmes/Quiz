@@ -1,22 +1,96 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz zur Gretchentragödie</title>
     <link rel="stylesheet" href="./src/css/quiz.css">
-    <title>Document</title>
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="icon" type="image/x-icon" href="./src/images/icon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    <h1>Quiz on Important Facts</h1>
-<div class="quiz-container">
-  <div id="quiz"></div>
-</div>
-<button id="previous">Previous Question</button>
-<button id="next">Next Question</button>
-<button id="submit">Submit Quiz</button>
-<div id="results"></div>
+  
+    <h styles="color: white">Quiz zu Faust</h>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button onclick="play()" >Quiz starten</button></div>
 
-   <script src="./src/js/quiz.js"></script>
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Regeln zum Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Sie haben nur <span>15 sekunen</span> Zeit pro Frage um diese zu beantworten.</div>
+            <div class="info">2. Wenn sie einmal eine Frage ausgewählt haben, können sie sich nicht mehr umentscheiden.</div>
+            <div class="info">3. Nachdem die Zeit abgelaufen ist, können sie sich nicht mehr umentscheiden</div>
+            <div class="info">4. Es gibt keine Möglichekeit das Quiz zu pausieren oder zu verlassen, wenn sie es schon gestartet haben</div>
+            <div class="info">5. Sie bekommen Punkte je nachdem ob sie die richtige Antwort gewählt haben</div>
+        </div>
+        <div class="buttons">
+            <button onclick="stop()" class="quit">Verlassen?</button>
+            <button onclick="play()" class="restart">Starten</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Gretchens Sünden</div>
+            <div class="timer">
+                <div class="time_left_txt">Zeit Übrig:</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Nächste Frage</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Sie haben das Quiz beendet!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button onclick="play()" class="restart">Nochmal?</button>
+            <button onclick="stop()" class="quit">Quiz verlassen?</button>
+        </div>
+    </div>
+    <script>
+    
+      var audio = new Audio("./src/sound/lobby-classic-game-halloween.mp3");
+    function play() { 
+    
+    audio.play();
+  } 
+  
+  function stop() { 
+    audio.pause(); 
+  } 
+    </script>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="./src/js/questions.js"></script>
+    
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="./src/js/script.js"></script>
+
 </body>
 </html>
