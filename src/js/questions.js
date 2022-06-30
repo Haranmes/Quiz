@@ -18,7 +18,7 @@ let questions = [
     options: [
       "Gretchen",
       "Susanne",
-      "Martha",
+      "Marthe",
       "Lieschen"
     ]
   },
@@ -46,7 +46,7 @@ let questions = [
   },
     {
     numb: 5,
-    question: "Wenn hatte Gretchen alles aktiv getötet?",
+    question: "Wen hatte Gretchen alles aktiv getötet?",
     answer: "Mutter und Kind",
     options: [
       "Vater und Bruder",
@@ -60,13 +60,72 @@ let questions = [
 
     {
     numb: 6,
-    question: "",
-    answer: "Correct answer of the question is here",
+    question: "Mit was beschäftigt sich die zweite Tragödie die parallel zu der Gelehrtentragödie sich abspielt?",
+    answer: "Sie beschreibt das Auseinanderbrechen des Liebesverhältnisses zwischen Faust und Margarete",
     options: [
-      "Option 1",
-      "option 2",
-      "option 3",
-      "option 4"
+      "Sie beschreibt das Auseinanderbrechen des Liebesverhältnisses zwischen Faust und Margarete",
+      "Sie befasst sich mit Fausts Suche nach Erkenntnis, bei der er trotz des Pakts mit dem Teufel scheitert",
+      "Sie beschäftigt sich mit der positiven Liebesentwicklung zwischen Heinrich und Gretchen",
+      "Sie behandelt den Verlust von Marthe"
     ]
+  },
+  {
+    numb: 7,
+    question: "Wie heißt diese Tragödie?",
+    answer: "Gretchentragödie",
+    options: [
+      "Mephistolestragödie",
+      "Gelehrtentragödie",
+      "Gretchentragödie",
+      "Gottestragödie"
+    ]
+    
+  },
+  {
+    numb: 8,
+    question: "Szene Kerker: Warum warf man Gretchen in den Kerker?",
+    answer: "Sie hat ein Kind gebärt",
+    options: [
+      "Sie hat ein Kind gebärt",
+      "Sie hat ein Kind getötet",
+      "Sie hat ihren Bruder getötet",
+      "Sie hat ihre Mutter getötet"
+    ]
+    
+  },
+  {
+    numb: 8,
+    question: "Warum gab Gretchen ihrer Mutter einen Schlaftrunk?",
+    answer: "Um mit Faust eine Liebesnacht haben zu können",
+    options: [
+      "Weil es Gott ihr befahl",
+      "Sie wollte einfach nur Ruhe in der Nacht von ihr haben",
+      "Um mit Faust eine Liebesnacht haben zu können",
+      "Damit Magarete eine Liebesnacht mit Faust haben kann"
+    ]
+  },
+  {
+    numb: 9,
+    question: "Warum starb Valentin?",
+    answer: "Er wurde von Faust erstochen",
+    options: [
+      "Gretchen vergiftete ihn",
+      "Mephist hat ihn umgebracht",
+      "Er stolperte und brach sich dabei sein Genick",
+      "Er wurde von Faust erstochen"
+    ]
+    
+  },
+  {
+    numb: 10,
+    question: 'Wer war ihr "Retter"?',
+    answer: "Gott",
+    options: [
+      "Faust",
+      "Valentin",
+      "Gott",
+      "Ihr Kind"
+    ]
+    
   },
 ];
