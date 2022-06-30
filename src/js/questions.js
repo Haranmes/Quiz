@@ -94,7 +94,7 @@ let questions = [
     
   },
   {
-    numb: 8,
+    numb: 9,
     question: "Warum gab Gretchen ihrer Mutter einen Schlaftrunk?",
     answer: "Um mit Faust eine Liebesnacht haben zu können",
     options: [
@@ -105,7 +105,7 @@ let questions = [
     ]
   },
   {
-    numb: 9,
+    numb: 10,
     question: "Warum starb Valentin?",
     answer: "Er wurde von Faust erstochen",
     options: [
@@ -117,7 +117,7 @@ let questions = [
     
   },
   {
-    numb: 10,
+    numb: 11,
     question: 'Wer war ihr "Retter"?',
     answer: "Gott",
     options: [
