@@ -9,6 +9,7 @@
     <!-- FontAweome CDN Link for Icons-->
     <link rel="icon" type="image/x-icon" href="./src/images/icon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
   
@@ -70,22 +71,11 @@
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
-            <button onclick="play()" class="restart">Nochmal?</button>
-            <button onclick="stop()" class="quit">Quiz verlassen?</button>
+            <button id="verlassen"onclick="" class="restart">Nochmal?</button>
+            <button onclick="play()" class="quit">Quiz verlassen?</button>
         </div>
     </div>
-    <script>
     
-      var audio = new Audio("./src/sound/lobby-classic-game-halloween.mp3");
-    function play() { 
-    
-    audio.play();
-  } 
-  
-  function stop() { 
-    audio.pause(); 
-  } 
-    </script>
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
     <script src="./src/js/questions.js"></script>
     

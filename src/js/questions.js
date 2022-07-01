@@ -60,13 +60,13 @@ let questions = [
 
     {
     numb: 6,
-    question: "Mit was beschäftigt sich die zweite Tragödie die parallel zu der Gelehrtentragödie sich abspielt?",
-    answer: "Sie beschreibt das Auseinanderbrechen des Liebesverhältnisses zwischen Faust und Margarete",
+    question: "Thematik der Tragödie die parallel stattfindet zu der Gelehrtentragödie?",
+    answer: "das Auseinanderbrechen des Liebesverhältnisses zwischen Faust und Margarete",
     options: [
-      "Sie beschreibt das Auseinanderbrechen des Liebesverhältnisses zwischen Faust und Margarete",
-      "Sie befasst sich mit Fausts Suche nach Erkenntnis, bei der er trotz des Pakts mit dem Teufel scheitert",
-      "Sie beschäftigt sich mit der positiven Liebesentwicklung zwischen Heinrich und Gretchen",
-      "Sie behandelt den Verlust von Marthe"
+      "das Auseinanderbrechen des Liebesverhältnisses zwischen Faust und Margarete",
+      "Fausts Suche nach Erkenntnis, bei der er trotz des Pakts mit dem Teufel scheitert",
+      "positiven Liebesentwicklung zwischen Heinrich und Gretchen",
+      "Verlust von Marthe"
     ]
   },
   {
@@ -110,7 +110,7 @@ let questions = [
     answer: "Er wurde von Faust erstochen",
     options: [
       "Gretchen vergiftete ihn",
-      "Mephist hat ihn umgebracht",
+      "Mephisto hat ihn umgebracht",
       "Er stolperte und brach sich dabei sein Genick",
       "Er wurde von Faust erstochen"
     ]
